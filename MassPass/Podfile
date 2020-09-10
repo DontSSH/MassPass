@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MassPass' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'SwiftSocket'
+  # Pods for MassPass
+
+  target 'MassPassTests' do
+    inherit! :search_paths
+    pod 'SwiftSocket'
+    # Pods for testing
+  end
+
+  target 'MassPassUITests' do
+    pod 'SwiftSocket'
+  end
+
+end

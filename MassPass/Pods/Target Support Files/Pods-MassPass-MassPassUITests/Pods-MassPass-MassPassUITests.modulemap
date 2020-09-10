@@ -1,0 +1,6 @@
+framework module Pods_MassPass_MassPassUITests {
+  umbrella header "Pods-MassPass-MassPassUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

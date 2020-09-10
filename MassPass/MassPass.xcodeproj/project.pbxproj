@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		175D18D17C8ACC8C3B7EB8B0 /* Pods_MassPass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39784371A38BA3E88A52C7BA /* Pods_MassPass.framework */; };
+		6DDD7CB7C86A8A0F96049750 /* Pods_MassPassTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C0A1FB347A9E16E55DA11C /* Pods_MassPassTests.framework */; };
+		8C7FBDFE856E2B544E0D0688 /* Pods_MassPass_MassPassUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30673FB18C1A5B6AE43751F /* Pods_MassPass_MassPassUITests.framework */; };
+		D5462AD324FA0C3900CCB550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5462AD224FA0C3900CCB550 /* AppDelegate.swift */; };
+		D5462AD524FA0C3900CCB550 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5462AD424FA0C3900CCB550 /* SceneDelegate.swift */; };
+		D5462AD724FA0C3900CCB550 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5462AD624FA0C3900CCB550 /* ViewController.swift */; };
+		D5462ADA24FA0C3900CCB550 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5462AD824FA0C3900CCB550 /* Main.storyboard */; };
+		D5462ADC24FA0C3A00CCB550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5462ADB24FA0C3A00CCB550 /* Assets.xcassets */; };
+		D5462ADF24FA0C3A00CCB550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5462ADD24FA0C3A00CCB550 /* LaunchScreen.storyboard */; };
+		D5462AEA24FA0C3A00CCB550 /* MassPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5462AE924FA0C3A00CCB550 /* MassPassTests.swift */; };
+		D5462AF524FA0C3A00CCB550 /* MassPassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5462AF424FA0C3A00CCB550 /* MassPassUITests.swift */; };
+		D5462B0724FB586000CCB550 /* startupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5462B0624FB586000CCB550 /* startupViewController.swift */; };
+		D5462B0924FB587500CCB550 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5462B0824FB587500CCB550 /* loginViewController.swift */; };
+		D5462B0B24FB5BF000CCB550 /* signupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5462B0A24FB5BF000CCB550 /* signupViewController.swift */; };
+		D5B3EDC82507312D00301E83 /* cocoa.pod in Resources */ = {isa = PBXBuildFile; fileRef = D5B3EDC72507312D00301E83 /* cocoa.pod */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5462AE624FA0C3A00CCB550 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5462AC724FA0C3900CCB550 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5462ACE24FA0C3900CCB550;
+			remoteInfo = MassPass;
+		};
+		D5462AF124FA0C3A00CCB550 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5462AC724FA0C3900CCB550 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5462ACE24FA0C3900CCB550;
+			remoteInfo = MassPass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22E499EBB69934C54F8AE495 /* Pods-MassPassTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MassPassTests.debug.xcconfig"; path = "Target Support Files/Pods-MassPassTests/Pods-MassPassTests.debug.xcconfig"; sourceTree = "<group>"; };
+		39784371A38BA3E88A52C7BA /* Pods_MassPass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MassPass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A02CA325197A760EEA6A263 /* Pods-MassPass-MassPassUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MassPass-MassPassUITests.release.xcconfig"; path = "Target Support Files/Pods-MassPass-MassPassUITests/Pods-MassPass-MassPassUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5A885699E1EF7F21AA70D74C /* Pods-MassPassTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MassPassTests.release.xcconfig"; path = "Target Support Files/Pods-MassPassTests/Pods-MassPassTests.release.xcconfig"; sourceTree = "<group>"; };
+		8CFED584D166AB1CDCDB50EE /* Pods-MassPass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MassPass.debug.xcconfig"; path = "Target Support Files/Pods-MassPass/Pods-MassPass.debug.xcconfig"; sourceTree = "<group>"; };
+		A1C0A1FB347A9E16E55DA11C /* Pods_MassPassTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MassPassTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2037B50C37A79DF739D54D0 /* Pods-MassPass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MassPass.release.xcconfig"; path = "Target Support Files/Pods-MassPass/Pods-MassPass.release.xcconfig"; sourceTree = "<group>"; };
+		D30673FB18C1A5B6AE43751F /* Pods_MassPass_MassPassUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MassPass_MassPassUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5462ACF24FA0C3900CCB550 /* MassPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MassPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5462AD224FA0C3900CCB550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5462AD424FA0C3900CCB550 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D5462AD624FA0C3900CCB550 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5462AD924FA0C3900CCB550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5462ADB24FA0C3A00CCB550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5462ADE24FA0C3A00CCB550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5462AE024FA0C3A00CCB550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5462AE524FA0C3A00CCB550 /* MassPassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MassPassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5462AE924FA0C3A00CCB550 /* MassPassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassPassTests.swift; sourceTree = "<group>"; };
+		D5462AEB24FA0C3A00CCB550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5462AF024FA0C3A00CCB550 /* MassPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MassPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5462AF424FA0C3A00CCB550 /* MassPassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassPassUITests.swift; sourceTree = "<group>"; };
+		D5462AF624FA0C3A00CCB550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5462B0624FB586000CCB550 /* startupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startupViewController.swift; sourceTree = "<group>"; };
+		D5462B0824FB587500CCB550 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		D5462B0A24FB5BF000CCB550 /* signupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupViewController.swift; sourceTree = "<group>"; };
+		D5B3EDC72507312D00301E83 /* cocoa.pod */ = {isa = PBXFileReference; lastKnownFileType = text; path = cocoa.pod; sourceTree = "<group>"; };
+		D8605CFF32F39BE293D05BD3 /* Pods-MassPass-MassPassUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MassPass-MassPassUITests.debug.xcconfig"; path = "Target Support Files/Pods-MassPass-MassPassUITests/Pods-MassPass-MassPassUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5462ACC24FA0C3900CCB550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175D18D17C8ACC8C3B7EB8B0 /* Pods_MassPass.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5462AE224FA0C3A00CCB550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DDD7CB7C86A8A0F96049750 /* Pods_MassPassTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5462AED24FA0C3A00CCB550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7FBDFE856E2B544E0D0688 /* Pods_MassPass_MassPassUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		623AA1D4D57B6E2EC3332F28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CFED584D166AB1CDCDB50EE /* Pods-MassPass.debug.xcconfig */,
+				A2037B50C37A79DF739D54D0 /* Pods-MassPass.release.xcconfig */,
+				D8605CFF32F39BE293D05BD3 /* Pods-MassPass-MassPassUITests.debug.xcconfig */,
+				4A02CA325197A760EEA6A263 /* Pods-MassPass-MassPassUITests.release.xcconfig */,
+				22E499EBB69934C54F8AE495 /* Pods-MassPassTests.debug.xcconfig */,
+				5A885699E1EF7F21AA70D74C /* Pods-MassPassTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8DFC66509787017676F22D79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39784371A38BA3E88A52C7BA /* Pods_MassPass.framework */,
+				D30673FB18C1A5B6AE43751F /* Pods_MassPass_MassPassUITests.framework */,
+				A1C0A1FB347A9E16E55DA11C /* Pods_MassPassTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5462AC624FA0C3900CCB550 = {
+			isa = PBXGroup;
+			children = (
+				D5462AD124FA0C3900CCB550 /* MassPass */,
+				D5462AE824FA0C3A00CCB550 /* MassPassTests */,
+				D5462AF324FA0C3A00CCB550 /* MassPassUITests */,
+				D5462AD024FA0C3900CCB550 /* Products */,
+				623AA1D4D57B6E2EC3332F28 /* Pods */,
+				8DFC66509787017676F22D79 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5462AD024FA0C3900CCB550 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5462ACF24FA0C3900CCB550 /* MassPass.app */,
+				D5462AE524FA0C3A00CCB550 /* MassPassTests.xctest */,
+				D5462AF024FA0C3A00CCB550 /* MassPassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5462AD124FA0C3900CCB550 /* MassPass */ = {
+			isa = PBXGroup;
+			children = (
+				D5462AD224FA0C3900CCB550 /* AppDelegate.swift */,
+				D5462AD424FA0C3900CCB550 /* SceneDelegate.swift */,
+				D5462AD624FA0C3900CCB550 /* ViewController.swift */,
+				D5462AD824FA0C3900CCB550 /* Main.storyboard */,
+				D5462B0A24FB5BF000CCB550 /* signupViewController.swift */,
+				D5462B0824FB587500CCB550 /* loginViewController.swift */,
+				D5462B0624FB586000CCB550 /* startupViewController.swift */,
+				D5462ADB24FA0C3A00CCB550 /* Assets.xcassets */,
+				D5462ADD24FA0C3A00CCB550 /* LaunchScreen.storyboard */,
+				D5462AE024FA0C3A00CCB550 /* Info.plist */,
+				D5B3EDC72507312D00301E83 /* cocoa.pod */,
+			);
+			path = MassPass;
+			sourceTree = "<group>";
+		};
+		D5462AE824FA0C3A00CCB550 /* MassPassTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5462AE924FA0C3A00CCB550 /* MassPassTests.swift */,
+				D5462AEB24FA0C3A00CCB550 /* Info.plist */,
+			);
+			path = MassPassTests;
+			sourceTree = "<group>";
+		};
+		D5462AF324FA0C3A00CCB550 /* MassPassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5462AF424FA0C3A00CCB550 /* MassPassUITests.swift */,
+				D5462AF624FA0C3A00CCB550 /* Info.plist */,
+			);
+			path = MassPassUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5462ACE24FA0C3900CCB550 /* MassPass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5462AF924FA0C3A00CCB550 /* Build configuration list for PBXNativeTarget "MassPass" */;
+			buildPhases = (
+				DE7760B4F90A5C4714106D93 /* [CP] Check Pods Manifest.lock */,
+				D5462ACB24FA0C3900CCB550 /* Sources */,
+				D5462ACC24FA0C3900CCB550 /* Frameworks */,
+				D5462ACD24FA0C3900CCB550 /* Resources */,
+				2B75F34DE19D00593284EECA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MassPass;
+			productName = MassPass;
+			productReference = D5462ACF24FA0C3900CCB550 /* MassPass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5462AE424FA0C3A00CCB550 /* MassPassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5462AFC24FA0C3A00CCB550 /* Build configuration list for PBXNativeTarget "MassPassTests" */;
+			buildPhases = (
+				890AA5D2AAD8479586042601 /* [CP] Check Pods Manifest.lock */,
+				D5462AE124FA0C3A00CCB550 /* Sources */,
+				D5462AE224FA0C3A00CCB550 /* Frameworks */,
+				D5462AE324FA0C3A00CCB550 /* Resources */,
+				572774D836B944CACDB77AD7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5462AE724FA0C3A00CCB550 /* PBXTargetDependency */,
+			);
+			name = MassPassTests;
+			productName = MassPassTests;
+			productReference = D5462AE524FA0C3A00CCB550 /* MassPassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5462AEF24FA0C3A00CCB550 /* MassPassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5462AFF24FA0C3A00CCB550 /* Build configuration list for PBXNativeTarget "MassPassUITests" */;
+			buildPhases = (
+				BD96A670F70EA5A43C52A044 /* [CP] Check Pods Manifest.lock */,
+				D5462AEC24FA0C3A00CCB550 /* Sources */,
+				D5462AED24FA0C3A00CCB550 /* Frameworks */,
+				D5462AEE24FA0C3A00CCB550 /* Resources */,
+				A75F82DFC296A32008BD3B79 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5462AF224FA0C3A00CCB550 /* PBXTargetDependency */,
+			);
+			name = MassPassUITests;
+			productName = MassPassUITests;
+			productReference = D5462AF024FA0C3A00CCB550 /* MassPassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5462AC724FA0C3900CCB550 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Dennis Yilmaz";
+				TargetAttributes = {
+					D5462ACE24FA0C3900CCB550 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					D5462AE424FA0C3A00CCB550 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = D5462ACE24FA0C3900CCB550;
+					};
+					D5462AEF24FA0C3A00CCB550 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = D5462ACE24FA0C3900CCB550;
+					};
+				};
+			};
+			buildConfigurationList = D5462ACA24FA0C3900CCB550 /* Build configuration list for PBXProject "MassPass" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5462AC624FA0C3900CCB550;
+			productRefGroup = D5462AD024FA0C3900CCB550 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5462ACE24FA0C3900CCB550 /* MassPass */,
+				D5462AE424FA0C3A00CCB550 /* MassPassTests */,
+				D5462AEF24FA0C3A00CCB550 /* MassPassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5462ACD24FA0C3900CCB550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5462ADF24FA0C3A00CCB550 /* LaunchScreen.storyboard in Resources */,
+				D5462ADC24FA0C3A00CCB550 /* Assets.xcassets in Resources */,
+				D5462ADA24FA0C3900CCB550 /* Main.storyboard in Resources */,
+				D5B3EDC82507312D00301E83 /* cocoa.pod in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5462AE324FA0C3A00CCB550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5462AEE24FA0C3A00CCB550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B75F34DE19D00593284EECA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MassPass/Pods-MassPass-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MassPass/Pods-MassPass-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MassPass/Pods-MassPass-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		572774D836B944CACDB77AD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MassPassTests/Pods-MassPassTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MassPassTests/Pods-MassPassTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MassPassTests/Pods-MassPassTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		890AA5D2AAD8479586042601 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MassPassTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A75F82DFC296A32008BD3B79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MassPass-MassPassUITests/Pods-MassPass-MassPassUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MassPass-MassPassUITests/Pods-MassPass-MassPassUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MassPass-MassPassUITests/Pods-MassPass-MassPassUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD96A670F70EA5A43C52A044 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MassPass-MassPassUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE7760B4F90A5C4714106D93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MassPass-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5462ACB24FA0C3900CCB550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5462B0724FB586000CCB550 /* startupViewController.swift in Sources */,
+				D5462AD724FA0C3900CCB550 /* ViewController.swift in Sources */,
+				D5462AD324FA0C3900CCB550 /* AppDelegate.swift in Sources */,
+				D5462AD524FA0C3900CCB550 /* SceneDelegate.swift in Sources */,
+				D5462B0B24FB5BF000CCB550 /* signupViewController.swift in Sources */,
+				D5462B0924FB587500CCB550 /* loginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5462AE124FA0C3A00CCB550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5462AEA24FA0C3A00CCB550 /* MassPassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5462AEC24FA0C3A00CCB550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5462AF524FA0C3A00CCB550 /* MassPassUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5462AE724FA0C3A00CCB550 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5462ACE24FA0C3900CCB550 /* MassPass */;
+			targetProxy = D5462AE624FA0C3A00CCB550 /* PBXContainerItemProxy */;
+		};
+		D5462AF224FA0C3A00CCB550 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5462ACE24FA0C3900CCB550 /* MassPass */;
+			targetProxy = D5462AF124FA0C3A00CCB550 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5462AD824FA0C3900CCB550 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5462AD924FA0C3900CCB550 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5462ADD24FA0C3A00CCB550 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5462ADE24FA0C3A00CCB550 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5462AF724FA0C3A00CCB550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5462AF824FA0C3A00CCB550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5462AFA24FA0C3A00CCB550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CFED584D166AB1CDCDB50EE /* Pods-MassPass.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCT366L6V5;
+				INFOPLIST_FILE = MassPass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mp.MassPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5462AFB24FA0C3A00CCB550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2037B50C37A79DF739D54D0 /* Pods-MassPass.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCT366L6V5;
+				INFOPLIST_FILE = MassPass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mp.MassPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5462AFD24FA0C3A00CCB550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22E499EBB69934C54F8AE495 /* Pods-MassPassTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MassPassTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mp.MassPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MassPass.app/MassPass";
+			};
+			name = Debug;
+		};
+		D5462AFE24FA0C3A00CCB550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A885699E1EF7F21AA70D74C /* Pods-MassPassTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MassPassTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mp.MassPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MassPass.app/MassPass";
+			};
+			name = Release;
+		};
+		D5462B0024FA0C3A00CCB550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8605CFF32F39BE293D05BD3 /* Pods-MassPass-MassPassUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MassPassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mp.MassPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MassPass;
+			};
+			name = Debug;
+		};
+		D5462B0124FA0C3A00CCB550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A02CA325197A760EEA6A263 /* Pods-MassPass-MassPassUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MassPassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mp.MassPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MassPass;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5462ACA24FA0C3900CCB550 /* Build configuration list for PBXProject "MassPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5462AF724FA0C3A00CCB550 /* Debug */,
+				D5462AF824FA0C3A00CCB550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5462AF924FA0C3A00CCB550 /* Build configuration list for PBXNativeTarget "MassPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5462AFA24FA0C3A00CCB550 /* Debug */,
+				D5462AFB24FA0C3A00CCB550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5462AFC24FA0C3A00CCB550 /* Build configuration list for PBXNativeTarget "MassPassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5462AFD24FA0C3A00CCB550 /* Debug */,
+				D5462AFE24FA0C3A00CCB550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5462AFF24FA0C3A00CCB550 /* Build configuration list for PBXNativeTarget "MassPassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5462B0024FA0C3A00CCB550 /* Debug */,
+				D5462B0124FA0C3A00CCB550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5462AC724FA0C3900CCB550 /* Project object */;
+}
